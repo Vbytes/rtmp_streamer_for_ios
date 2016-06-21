@@ -23,6 +23,8 @@
      9. 低延时： 在rtmp-nginx + srs播放器网络状况良好情况下1秒延时，网络状况差时延时能自动缩小到3秒内。
      10. 丢包策略： 当发送队列超过阈值时，自动丢掉gop,防止出现马赛克。
      11. 实时监控： 能够实时监控推流端buffer,丢包，以及码率情况。
-###  效果图：![before](https://github.com/ChinaTuring/streamer_for_ios/raw/master/demopic/before.jpg) 
+###   交流方式：
+     如有疑问，请给我发送邮件到songming8998@126.com 或者访问公司地址www.vbyte.cn 了解详细信息
+###  效果图：![main](https://github.com/ChinaTuring/streamer_for_ios/raw/master/demopic/main.jpg) 
      
       	
