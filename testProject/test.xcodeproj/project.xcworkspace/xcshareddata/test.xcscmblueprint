@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "22BCC71B03FD2B2DC9A2A7D96C8A3D46397958ED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "90A0001FBCD022CCC4684456491FF5D55BA5F077" : 0,
+    "22BCC71B03FD2B2DC9A2A7D96C8A3D46397958ED" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0FE56362-4A9E-425A-8B88-0308D93DADD6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "90A0001FBCD022CCC4684456491FF5D55BA5F077" : "",
+    "22BCC71B03FD2B2DC9A2A7D96C8A3D46397958ED" : "rtmp_streamer_for_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testProject\/test.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ChinaTuring\/rtmp_streamer_for_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22BCC71B03FD2B2DC9A2A7D96C8A3D46397958ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.vbyte.cn:cpp\/advancedp2p.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90A0001FBCD022CCC4684456491FF5D55BA5F077"
+    }
+  ]
+}

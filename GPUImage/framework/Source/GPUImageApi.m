@@ -9,7 +9,7 @@
 #import "GPUImageApi.h"
 #import "GPUImage.h"
 #import "StreamerSession.h"
-#import "GPUImagePerfectFaceFilter.h"
+
 
 @interface GPUImageApi()<NSStreamDelegate>
 {
@@ -19,8 +19,9 @@
     
 }
 @property(nonatomic, retain) GPUImageVideoCamera* videoCamera;
-//@property(nonatomic, retain) GPUImageBilateralFilter* filter;
-@property(nonatomic, retain) GPUImagePerfectFaceFilter* filter;
+
+@property(nonatomic, retain) GPUImageBeautifyFilter* filter;
+
 @property(nonatomic, retain) GPUImageView *filterView;
 @property(nonatomic, retain)  GPUImageRawDataOutput* rawDataOutput;
 @property(nonatomic, retain)  StreamerSession* session;
@@ -109,9 +110,14 @@
             [parentView addSubview:self.filterView];
             [parentView sendSubviewToBack:self.filterView];
             
-            //jiangqibing
         
-            self.filter=[[GPUImagePerfectFaceFilter alloc] init];
+            //美颜算法一
+            self.filter=[[GPUImageBeautifyFilter alloc] init];
+             //美颜算法二：有兴趣可以尝试
+            //self.filter=[[GPUImagePerfectFaceFilter alloc] init];
+
+
+
         
             //是否启动美颜
             faceFilter = true;

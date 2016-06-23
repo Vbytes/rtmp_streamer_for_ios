@@ -21,6 +21,10 @@
 #import "GPUImageFramebufferCache.h"
 
 // Filters
+
+#import "GPUImageBeautifyFilter.h"
+#import "GPUImagePerfectFaceFilter.h"
+
 #import "GPUImageFilter.h"
 #import "GPUImageTwoInputFilter.h"
 #import "GPUImagePixellateFilter.h"
